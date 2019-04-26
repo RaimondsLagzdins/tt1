@@ -1,0 +1,130 @@
+/*
+html, body{
+background-color: black !important;
+height: 100%;
+
+}
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    font-family: 'Open Sans',serif;
+}
+.mainbox{
+    background-color: coral;
+    width: 80%;
+    margin: 0 auto;
+}
+.leftside{
+    background-color: aliceblue;
+    width: 10%;
+    float: left;
+    height: 100%;
+}
+.main{
+    background-color: white;
+    color: white;
+    width: 100%;
+    float:left;
+    height:auto;
+}
+.menu a{
+    font-family: 'Open Sans',serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+
+}
+.menu li{
+    display: inline;
+    text-decoration: none;
+    padding: 30px;
+
+}
+.menu ul {
+    text-align: center;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+a:hover {
+    color: darkgray;
+}
+
+.main h1 {
+    font-family: 'Open Sans', serif;
+    font-size: 25px;
+    color: black;
+    /*padding-top: 20px;*/
+    text-align: center;
+}
+
+.footer{
+    background-color: darkred;
+    display: block;
+}
+
+.specBox{
+    height: auto;
+    width: 100%;
+    display: table;
+    padding-top: 15px;
+
+}
+.specLeft{
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+
+}
+.specLeft img {
+    max-width: 100%;
+    height: auto;
+}
+.specRight {
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+
+}
+.specRight p {
+    color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.specRight h1{
+    text-align: left;
+    width: auto;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.specRight a{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    background-color: darkgray; /* Green */
+    border: none;
+    color: darkgray;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.text{
+    width: 100%;
+    background: whitesmoke;
+}
+.text p{
+    width: 100%;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    line-height: 1.5;
+}
