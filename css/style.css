@@ -69,6 +69,8 @@ a:hover {
     font-family: 'Open Sans', serif;
     font-size: 15px;
     padding: 10px;
+    text-decoration: none;
+    color: #000;
 }
 .specBox{
     height: auto;
