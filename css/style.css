@@ -11,7 +11,7 @@ body{
     font-family: 'Open Sans',serif;
 }
 .mainbox{
-    background-color: coral;
+    background-color: white;
     width: 80%;
     margin: 0 auto;
 }
@@ -62,10 +62,14 @@ a:hover {
 }
 
 .footer{
-    background-color: darkred;
-    display: block;
+    width: 100%;
 }
-
+.footer p{
+    float: left;
+    font-family: 'Open Sans', serif;
+    font-size: 15px;
+    padding: 10px;
+}
 .specBox{
     height: auto;
     width: 100%;
